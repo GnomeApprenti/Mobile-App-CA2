@@ -142,7 +142,7 @@ fun SeatSelectionElement(movie: Movie){
         )
         {
             seats_remaining.value = "Seats Remaining: ${movie.seats_remaining}";
-            seats_selected.value = "Seats Remaining: ${movie.seats_selected}";
+            seats_selected.value = "Seats Selected: ${movie.seats_selected}";
 
             Text(text = seats_remaining.value,
                 color = Color(0xFFFFA500),
